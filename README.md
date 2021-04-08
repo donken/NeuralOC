@@ -6,34 +6,35 @@ Pytorch implementation of our neural network approach for solving optimal contro
 Additional videos at https://imgur.com/a/eWr6sUb
 ## Associated Publications
 
+
+#### A Neural Network Approach for High-Dimensional Optimal Control
+Full-Paper: https://arxiv.org/abs/2104.03270 
+
+Please cite as
+
+    @article{onken2020neuraloc,
+        title   = {A Neural Network Approach for High-Dimensional Optimal Control}, 
+        author  = {Derek Onken and Levon Nurbekyan and Xingjian Li and Samy Wu Fung and Stanley Osher and Lars Ruthotto},
+        year    = {2021},
+        journal = {arXiv:2104.03270},
+    }
+
+
+
 #### A Neural Network Approach Applied to Multi-Agent Optimal Control
-https://arxiv.org/abs/2011.04757
+Conference Paper: https://arxiv.org/abs/2011.04757
 
 (Forthcoming at the 2021 European Control Conference)
 
 Please cite as
     
-    @article{onken2020neural,
+    @article{onken2020neuralmulti,
         title   = {A Neural Network Approach Applied to Multi-Agent Optimal Control}, 
         author  = {Derek Onken and Levon Nurbekyan and Xingjian Li and Samy Wu Fung and Stanley Osher and Lars Ruthotto},
         year    = {2020},
         journal = {arXiv:2011.04757},
     }
 
-
-
-
-#### PhD Dissertation
-
-Please cite as
-
-    @phdthesis{onken2021dissertation,
-      author  = {Derek Onken}, 
-      title   = {Optimal Control Approaches for Designing Neural Ordinary Differential Equations},
-      school  = {Emory University},
-      year    = {2021},
-      address = {Atlanta, GA},
-    }
 
 
 
