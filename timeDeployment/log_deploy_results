@@ -1,0 +1,105 @@
+on Intel(R) Xeon(R) CPU E5-4627 v3 @ 2.60GHz
+----------
+
+baseline
+problem:  softcorridor
+args:  Namespace(alph=[100.0, 10000.0, 300.0], data='softcorridor', niters=301, nt=20, prec='single', resume=None, save='experiments/oc/baseline', time_log='./timeDeployment/log_deploy')
+device:  cpu
+   50   time: 0.029073  forw sec/itr: 0.016537  bk sec/itr: 0.012066  approx 100grads: 2.860265
+  100   time: 0.029057  forw sec/itr: 0.016636  bk sec/itr: 0.012201  approx 100grads: 2.883695
+  150   time: 0.029027  forw sec/itr: 0.016670  bk sec/itr: 0.012249  approx 100grads: 2.891964
+  200   time: 0.029032  forw sec/itr: 0.016684  bk sec/itr: 0.012271  approx 100grads: 2.895499
+  250   time: 0.029054  forw sec/itr: 0.016691  bk sec/itr: 0.012285  approx 100grads: 2.897545
+  300   time: 0.029039  forw sec/itr: 0.016697  bk sec/itr: 0.012293  approx 100grads: 2.899034
+
+----------
+
+baseline
+problem:  swap2
+args:  Namespace(alph=[300.0, 1000000.0, 100000.0], data='swap2', niters=301, nt=20, prec='single', resume=None, save='experiments/oc/baseline', time_log='./timeDeployment/log_deploy')
+device:  cpu
+   50   time: 0.025805  forw sec/itr: 0.015352  bk sec/itr: 0.009988  approx 100grads: 2.534007
+  100   time: 0.025687  forw sec/itr: 0.015464  bk sec/itr: 0.010111  approx 100grads: 2.557555
+  150   time: 0.025802  forw sec/itr: 0.015503  bk sec/itr: 0.010149  approx 100grads: 2.565146
+  200   time: 0.025877  forw sec/itr: 0.015515  bk sec/itr: 0.010167  approx 100grads: 2.568284
+  250   time: 0.025669  forw sec/itr: 0.015523  bk sec/itr: 0.010176  approx 100grads: 2.569984
+  300   time: 0.025769  forw sec/itr: 0.015529  bk sec/itr: 0.010181  approx 100grads: 2.570980
+
+----------
+
+baseline
+problem:  swap12
+args:  Namespace(alph=[300.0, 0.0, 100000.0], data='swap12', niters=301, nt=20, prec='single', resume=None, save='experiments/oc/baseline', time_log='./timeDeployment/log_deploy')
+device:  cpu
+   50   time: 0.017258  forw sec/itr: 0.009862  bk sec/itr: 0.007227  approx 100grads: 1.708899
+  100   time: 0.017791  forw sec/itr: 0.009964  bk sec/itr: 0.007283  approx 100grads: 1.724711
+  150   time: 0.017282  forw sec/itr: 0.009978  bk sec/itr: 0.007282  approx 100grads: 1.726032
+  200   time: 0.017209  forw sec/itr: 0.009986  bk sec/itr: 0.007282  approx 100grads: 1.726766
+  250   time: 0.017385  forw sec/itr: 0.009994  bk sec/itr: 0.007287  approx 100grads: 1.728060
+  300   time: 0.017536  forw sec/itr: 0.010011  bk sec/itr: 0.007291  approx 100grads: 1.730196
+
+----------
+
+baseline
+problem:  swarm
+args:  Namespace(alph=[900.0, 10000000.0, 25000.0], data='swarm', niters=301, nt=20, prec='single', resume=None, save='experiments/oc/baseline', time_log='./timeDeployment/log_deploy')
+device:  cpu
+   50   time: 0.040194  forw sec/itr: 0.028197  bk sec/itr: 0.011356  approx 100grads: 3.955294
+  100   time: 0.041106  forw sec/itr: 0.028504  bk sec/itr: 0.011485  approx 100grads: 3.998935
+  150   time: 0.040297  forw sec/itr: 0.028638  bk sec/itr: 0.011522  approx 100grads: 4.016017
+  200   time: 0.041013  forw sec/itr: 0.028697  bk sec/itr: 0.011543  approx 100grads: 4.023922
+  250   time: 0.040428  forw sec/itr: 0.028720  bk sec/itr: 0.011546  approx 100grads: 4.026553
+  300   time: 0.040227  forw sec/itr: 0.028717  bk sec/itr: 0.011546  approx 100grads: 4.026291
+
+----------
+
+baseline
+problem:  singlequad
+args:  Namespace(alph=[5000.0, 0.0, 0.0], data='singlequad', niters=301, nt=20, prec='single', resume=None, save='experiments/oc/baseline', time_log='./timeDeployment/log_deploy')
+device:  cpu
+   50   time: 0.031197  forw sec/itr: 0.015044  bk sec/itr: 0.015609  approx 100grads: 3.065275
+  100   time: 0.031176  forw sec/itr: 0.015194  bk sec/itr: 0.015728  approx 100grads: 3.092182
+  150   time: 0.031353  forw sec/itr: 0.015242  bk sec/itr: 0.015768  approx 100grads: 3.101087
+  200   time: 0.031585  forw sec/itr: 0.015287  bk sec/itr: 0.015777  approx 100grads: 3.106344
+  250   time: 0.031215  forw sec/itr: 0.015302  bk sec/itr: 0.015784  approx 100grads: 3.108568
+  300   time: 0.031168  forw sec/itr: 0.015307  bk sec/itr: 0.015789  approx 100grads: 3.109594
+
+----------
+
+NN
+problem:  softcorridor
+args:  Namespace(alph=[100.0, 10000.0, 300.0, 0.02, 0.02, 0.02], approach='ocflow', data='softcorridor', gpu=0, log_freq=10, lr=0.01, lr_decay=0.1, lr_freq=600, m=32, nTh=2, n_train=1024, niters=1800, nt=20, nt_val=32, optim='adam', prec='single', resume=None, sample_freq=100, save='experiments/oc/toy/noval/', val_freq=25, var0=1.0, viz_freq=100, weight_decay=0.0)
+device:  cpu
+time: 0.221751   avg time / RK4 timestep: 0.004435
+
+----------
+
+NN
+problem:  swap2
+args:  Namespace(alph=[300.0, 1000000.0, 100000.0, 1.0, 1.0, 3.0], approach='ocflow', data='swap2', gpu=0, log_freq=10, lr=0.01, lr_decay=0.1, lr_freq=1000, m=16, nTh=2, n_train=1024, niters=4000, nt=20, nt_val=42, optim='adam', prec='single', resume=None, sample_freq=50, save='experiments/oc/toy', val_freq=50, var0=1.0, viz_freq=100, weight_decay=0.0)
+device:  cpu
+time: 0.227128   avg time / RK4 timestep: 0.004543
+
+----------
+
+NN
+problem:  swap12
+args:  Namespace(alph=[300.0, 0.0, 100000.0, 5.0, 2.0, 5.0], approach='ocflow', data='swap12', gpu=0, log_freq=10, lr=0.01, lr_decay=0.1, lr_freq=800, m=32, nTh=2, n_train=2048, niters=2400, nt=20, nt_val=32, optim='adam', prec='single', resume=None, sample_freq=100, save='experiments/oc/toy', val_freq=50, var0=1.0, viz_freq=100, weight_decay=0.0)
+device:  cpu
+time: 0.179919   avg time / RK4 timestep: 0.003598
+
+----------
+
+NN
+problem:  swarm50
+args:  Namespace(alph=[900.0, 10000000.0, 25000.0, 0.0, 0.0, 0.0], approach='ocflow', data='swarm50', gpu=0, log_freq=10, lr=0.0001, lr_decay=0.5, lr_freq=1200, m=512, nTh=2, n_train=1024, niters=3000, nt=26, nt_val=32, optim='adam', prec='single', resume='experiments/oc/run/swarm50_2020_10_27_16_48_09_alph900_2_1_3_10000000_25000_m512_checkpt.pth', sample_freq=25, save='experiments/oc/toy', val_freq=50, var0=0.1, viz_freq=100, weight_decay=0.0)
+device:  cpu
+time: 0.480324   avg time / RK4 timestep: 0.009606
+
+----------
+
+NN
+problem:  singlequad
+args:  Namespace(alph=[5000.0, 0.0, 0.0, 0.1, 0.0, 0.0], approach='ocflow', data='singlequad', gpu=0, log_freq=10, lr=0.01, lr_decay=0.5, lr_freq=1200, m=128, nTh=2, n_train=1024, new_alph=None, niters=6000, nt=26, nt_val=50, optim='adam', prec='single', resume=None, sample_freq=25, save='experiments/oc/toy', val_freq=50, var0=0.1, viz_freq=100, weight_decay=0.0)
+device:  cpu
+time: 0.259526   avg time / RK4 timestep: 0.005191

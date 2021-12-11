@@ -12,8 +12,8 @@ Full-Paper: https://arxiv.org/abs/2104.03270
 
 Please cite as
 
-    @article{onken2020neuraloc,
-        title   = {A Neural Network Approach for High-Dimensional Optimal Control}, 
+    @article{onken2021neuraloc,
+        title   = {A Neural Network Approach for Real-Time High-Dimensional Optimal Control}, 
         author  = {Derek Onken and Levon Nurbekyan and Xingjian Li and Samy Wu Fung and Stanley Osher and Lars Ruthotto},
         year    = {2021},
         journal = {arXiv:2104.03270},
@@ -24,17 +24,15 @@ Please cite as
 #### A Neural Network Approach Applied to Multi-Agent Optimal Control
 Conference Paper: https://arxiv.org/abs/2011.04757
 
-(Forthcoming at the 2021 European Control Conference)
-
 Please cite as
-    
-    @article{onken2020neuralmulti,
-        title   = {A Neural Network Approach Applied to Multi-Agent Optimal Control}, 
-        author  = {Derek Onken and Levon Nurbekyan and Xingjian Li and Samy Wu Fung and Stanley Osher and Lars Ruthotto},
-        year    = {2020},
-        journal = {arXiv:2011.04757},
-    }
 
+    @inproceedings{onken2020neural,
+        title     = {A Neural Network Approach Applied to Multi-Agent Optimal Control},
+        author    = {Derek Onken and Levon Nurbekyan and Xingjian Li and Samy Wu Fung and Stanley Osher and Lars Ruthotto},
+        booktitle = {European Control Conference (ECC)},
+        pages     = {1036--1041},
+        year      = {2021}
+    }
 
 
 
@@ -140,6 +138,13 @@ python compareQuad.py
 python baseline2D.py --data softcorridor --nt 50 --alph 100.0,10000.0,300.0
 
 python baselineQuad.py --data singlequad --nt 50 --alph 5000.0,0.0,0.0
+```
+
+#### Compare Real-Time Timings of NN and optimizer-invariant baseline
+
+We encapsulate all the commands into a bash script and restrict the running to a single CPU core:
+```
+taskset -c 0 ./scriptTimeDeployment.sh
 ```
 
 
