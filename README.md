@@ -8,21 +8,27 @@ Additional videos at https://imgur.com/a/eWr6sUb
 
 
 #### A Neural Network Approach for High-Dimensional Optimal Control
-Full-Paper: https://arxiv.org/abs/2104.03270 
+Full-Paper: https://ieeexplore.ieee.org/abstract/document/9786046
+
+Pre-Print: https://arxiv.org/abs/2104.03270 
 
 Please cite as
 
-    @article{onken2021neuraloc,
-        title   = {A Neural Network Approach for Real-Time High-Dimensional Optimal Control}, 
-        author  = {Derek Onken and Levon Nurbekyan and Xingjian Li and Samy Wu Fung and Stanley Osher and Lars Ruthotto},
-        year    = {2021},
-        journal = {arXiv:2104.03270},
+    @article{onken2022neural,
+      title     = {A Neural Network Approach for High-Dimensional Optimal Control Applied to Multiagent Path Finding},
+      author    = {Derek Onken and Levon Nurbekyan and Xingjian Li and Samy Wu Fung and Stanley Osher and Lars Ruthotto},
+      journal   = {IEEE Transactions on Control Systems Technology},
+      year      = {2022},
+      publisher = {IEEE},
+      doi       = {10.1109/TCST.2022.3172872}
     }
 
 
 
 #### A Neural Network Approach Applied to Multi-Agent Optimal Control
-Conference Paper: https://arxiv.org/abs/2011.04757
+Conference Paper: https://ieeexplore.ieee.org/abstract/document/9655103
+
+Pre-Print: https://arxiv.org/abs/2011.04757
 
 Please cite as
 
@@ -31,7 +37,8 @@ Please cite as
         author    = {Derek Onken and Levon Nurbekyan and Xingjian Li and Samy Wu Fung and Stanley Osher and Lars Ruthotto},
         booktitle = {European Control Conference (ECC)},
         pages     = {1036--1041},
-        year      = {2021}
+        year      = {2021},
+        doi       = {10.23919/ECC54610.2021.9655103}
     }
 
 
